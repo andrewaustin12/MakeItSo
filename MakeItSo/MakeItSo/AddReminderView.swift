@@ -7,9 +7,19 @@
 
 import SwiftUI
 
-struct ReminderView: View {
+struct AddReminderView: View {
     @State
     private var reminder = Reminder(title: "")
+    
+    @Environment(\.dismiss)
+    private var dismiss
+    
+    var onCommit: (_ reminder: Reminder) -> Void
+    
+    private func commit() {
+        onCommit(reminder)
+        dismiss()
+    }
     
     var body: some View {
         NavigationStack {
@@ -18,7 +28,7 @@ struct ReminderView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button(action: {}) {
+                    Button(action: commit) {
                         Text("Add")
                     }
                 }
@@ -27,8 +37,10 @@ struct ReminderView: View {
     }
 }
 
-struct ReminderView_Previews: PreviewProvider {
+struct AddReminderView_Previews: PreviewProvider {
     static var previews: some View {
-        ReminderView()
+        AddReminderView { reminder in
+            print("You added a new remider titled \(reminder.title)")
+        }
     }
 }

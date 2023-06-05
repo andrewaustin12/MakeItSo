@@ -12,7 +12,7 @@
 		3F2049DC2A2E12D800530FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2049DB2A2E12D800530FEB /* Assets.xcassets */; };
 		3F2049DF2A2E12D800530FEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2049DE2A2E12D800530FEB /* Preview Assets.xcassets */; };
 		3F2049E62A2E130F00530FEB /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2049E52A2E130F00530FEB /* Reminder.swift */; };
-		3F2049E82A2E290800530FEB /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2049E72A2E290800530FEB /* ReminderView.swift */; };
+		3F2049E82A2E290800530FEB /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2049E72A2E290800530FEB /* AddReminderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		3F2049DB2A2E12D800530FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F2049DE2A2E12D800530FEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F2049E52A2E130F00530FEB /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
-		3F2049E72A2E290800530FEB /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		3F2049E72A2E290800530FEB /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 				3F2049E52A2E130F00530FEB /* Reminder.swift */,
 				3F2049DB2A2E12D800530FEB /* Assets.xcassets */,
 				3F2049DD2A2E12D800530FEB /* Preview Content */,
-				3F2049E72A2E290800530FEB /* ReminderView.swift */,
+				3F2049E72A2E290800530FEB /* AddReminderView.swift */,
 			);
 			path = MakeItSo;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			files = (
 				3F2049E62A2E130F00530FEB /* Reminder.swift in Sources */,
 				3F2049DA2A2E12D800530FEB /* ContentView.swift in Sources */,
-				3F2049E82A2E290800530FEB /* ReminderView.swift in Sources */,
+				3F2049E82A2E290800530FEB /* AddReminderView.swift in Sources */,
 				3F2049D82A2E12D800530FEB /* MakeItSoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
