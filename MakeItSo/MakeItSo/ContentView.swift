@@ -11,6 +11,13 @@ struct ContentView: View {
     @State
     private var reminders = Reminder.samples
     
+    @State
+    private var isAddReminderDialogPresented = false
+    
+    private func presentedAddReminderView() {
+        isAddReminderDialogPresented.toggle()
+    }
+    
     var body: some View {
         List($reminders) { $reminder in
             HStack {
@@ -25,11 +32,30 @@ struct ContentView: View {
                 Text(reminder.title)
             }
         }
+        .toolbar {
+            ToolbarItemGroup(placement: .bottomBar) {
+                Button(action: presentedAddReminderView) {
+                    HStack {
+                        Image(systemName: "plus.circle.fill")
+                        Text("New Reminder")
+                    }
+                }
+                Spacer()
+            }
+        }
+        .sheet(isPresented: $isAddReminderDialogPresented) {
+            AddReminderView { reminder in
+                reminders.append(reminder)
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NavigationStack {
+            ContentView()
+                .navigationTitle("Reminders")
+        }
     }
 }
