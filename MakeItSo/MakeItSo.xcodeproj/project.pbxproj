@@ -58,9 +58,9 @@
 				3F2049D72A2E12D800530FEB /* MakeItSoApp.swift */,
 				3F2049D92A2E12D800530FEB /* ContentView.swift */,
 				3F2049E52A2E130F00530FEB /* Reminder.swift */,
+				3F2049E72A2E290800530FEB /* AddReminderView.swift */,
 				3F2049DB2A2E12D800530FEB /* Assets.xcassets */,
 				3F2049DD2A2E12D800530FEB /* Preview Content */,
-				3F2049E72A2E290800530FEB /* AddReminderView.swift */,
 			);
 			path = MakeItSo;
 			sourceTree = "<group>";
