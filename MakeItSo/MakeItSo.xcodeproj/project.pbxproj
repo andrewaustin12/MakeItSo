@@ -14,6 +14,7 @@
 		3F2049E62A2E130F00530FEB /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2049E52A2E130F00530FEB /* Reminder.swift */; };
 		3F2049E82A2E290800530FEB /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2049E72A2E290800530FEB /* AddReminderView.swift */; };
 		3F2049F02A2F526400530FEB /* RemindersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2049EF2A2F526400530FEB /* RemindersListViewModel.swift */; };
+		3F2049F22A30745F00530FEB /* RemindersListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2049F12A30745F00530FEB /* RemindersListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		3F2049E52A2E130F00530FEB /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		3F2049E72A2E290800530FEB /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
 		3F2049EF2A2F526400530FEB /* RemindersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListViewModel.swift; sourceTree = "<group>"; };
+		3F2049F12A30745F00530FEB /* RemindersListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				3F2049E72A2E290800530FEB /* AddReminderView.swift */,
 				3F2049D92A2E12D800530FEB /* RemindersListView.swift */,
+				3F2049F12A30745F00530FEB /* RemindersListRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2049F02A2F526400530FEB /* RemindersListViewModel.swift in Sources */,
+				3F2049F22A30745F00530FEB /* RemindersListRowView.swift in Sources */,
 				3F2049E62A2E130F00530FEB /* Reminder.swift in Sources */,
 				3F2049DA2A2E12D800530FEB /* RemindersListView.swift in Sources */,
 				3F2049E82A2E290800530FEB /* AddReminderView.swift in Sources */,
