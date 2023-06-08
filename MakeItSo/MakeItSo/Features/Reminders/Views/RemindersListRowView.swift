@@ -13,14 +13,8 @@ struct RemindersListRowView: View {
     
     var body: some View {
         HStack {
-            Image(systemName: reminder.isCompleted
-                  ? "largecircle.fill.circle"
-                  : "circle")
-            .imageScale(.large)
-            .foregroundColor(.accentColor)
-            .onTapGesture {
-                reminder.isCompleted.toggle()
-            }
+            Toggle(isOn: $reminder.isCompleted) { }
+                .toggleStyle(.reminder)
             Text(reminder.title)
         }
     }
@@ -34,7 +28,6 @@ struct RemindersListRowView_Previews: PreviewProvider {
             List {
                 RemindersListRowView(reminder: $reminder)
             }
-            .listStyle(.plain)
         }
     }
     
