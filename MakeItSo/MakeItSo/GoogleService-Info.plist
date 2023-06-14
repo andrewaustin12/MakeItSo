@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>394286284049-iqqnbmn2g1al5d22k2c267ahmhfha5v6.apps.googleusercontent.com</string>
+	<string>394286284049-78r4nshjf9qgtg01k33rr8ha355b4v5u.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.394286284049-iqqnbmn2g1al5d22k2c267ahmhfha5v6</string>
+	<string>com.googleusercontent.apps.394286284049-78r4nshjf9qgtg01k33rr8ha355b4v5u</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBW8wceFCKvPu_Q52iDQ9tRAzAk1GAJICg</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.andy.MakeItSo</string>
+	<string>com.andy.example.MakeItSo</string>
 	<key>PROJECT_ID</key>
 	<string>makeitso-b1c62</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:394286284049:ios:22bf9c0661c66d1084e0b0</string>
+	<string>1:394286284049:ios:853400b4eb77ffbc84e0b0</string>
 </dict>
 </plist>

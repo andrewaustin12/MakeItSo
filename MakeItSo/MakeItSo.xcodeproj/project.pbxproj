@@ -23,6 +23,20 @@
 		3F204A002A337A6600530FEB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3F2049FF2A337A6600530FEB /* FirebaseFirestore */; };
 		3F204A022A337A6600530FEB /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F204A012A337A6600530FEB /* FirebaseFirestoreSwift */; };
 		3F204A062A34798D00530FEB /* ReminderRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A052A34798D00530FEB /* ReminderRespository.swift */; };
+		3F204A092A39D37700530FEB /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 3F204A082A39D37700530FEB /* Factory */; };
+		3F204A0D2A39D3D300530FEB /* Firebase+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A0C2A39D3D300530FEB /* Firebase+Injection.swift */; };
+		3F204A0F2A39DD2900530FEB /* Repositories+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A0E2A39DD2900530FEB /* Repositories+Injection.swift */; };
+		3F204A142A39F52700530FEB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A132A39F52700530FEB /* SettingsView.swift */; };
+		3F204A162A39F58100530FEB /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A152A39F58100530FEB /* SettingsViewModel.swift */; };
+		3F204A1D2A39F62F00530FEB /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A1B2A39F62E00530FEB /* AuthenticationViewModel.swift */; };
+		3F204A1E2A39F62F00530FEB /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A1C2A39F62F00530FEB /* UserProfileViewModel.swift */; };
+		3F204A242A39F64D00530FEB /* GoogleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A1F2A39F64D00530FEB /* GoogleSignInButton.swift */; };
+		3F204A252A39F64D00530FEB /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A202A39F64D00530FEB /* AuthenticationView.swift */; };
+		3F204A262A39F64D00530FEB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A212A39F64D00530FEB /* LoginView.swift */; };
+		3F204A272A39F64D00530FEB /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A222A39F64D00530FEB /* SignupView.swift */; };
+		3F204A282A39F64D00530FEB /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A232A39F64D00530FEB /* UserProfileView.swift */; };
+		3F204A2C2A39FCBD00530FEB /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A2B2A39FCBD00530FEB /* AuthenticationService.swift */; };
+		3F204A2E2A3A003700530FEB /* AuthenticationService+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F204A2D2A3A003700530FEB /* AuthenticationService+Injection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +52,19 @@
 		3F2049F42A3083F300530FEB /* ReminderToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderToggleStyle.swift; sourceTree = "<group>"; };
 		3F2049F62A33793800530FEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3F204A052A34798D00530FEB /* ReminderRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRespository.swift; sourceTree = "<group>"; };
+		3F204A0C2A39D3D300530FEB /* Firebase+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+Injection.swift"; sourceTree = "<group>"; };
+		3F204A0E2A39DD2900530FEB /* Repositories+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Repositories+Injection.swift"; sourceTree = "<group>"; };
+		3F204A132A39F52700530FEB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3F204A152A39F58100530FEB /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		3F204A1B2A39F62E00530FEB /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		3F204A1C2A39F62F00530FEB /* UserProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
+		3F204A1F2A39F64D00530FEB /* GoogleSignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInButton.swift; sourceTree = "<group>"; };
+		3F204A202A39F64D00530FEB /* AuthenticationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		3F204A212A39F64D00530FEB /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3F204A222A39F64D00530FEB /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		3F204A232A39F64D00530FEB /* UserProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		3F204A2B2A39FCBD00530FEB /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		3F204A2D2A3A003700530FEB /* AuthenticationService+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthenticationService+Injection.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +75,7 @@
 				3F204A022A337A6600530FEB /* FirebaseFirestoreSwift in Frameworks */,
 				3F2049FC2A337A6600530FEB /* FirebaseAnalyticsSwift in Frameworks */,
 				3F204A002A337A6600530FEB /* FirebaseFirestore in Frameworks */,
+				3F204A092A39D37700530FEB /* Factory in Frameworks */,
 				3F2049FE2A337A6600530FEB /* FirebaseAuth in Frameworks */,
 				3F2049FA2A337A6600530FEB /* FirebaseAnalytics in Frameworks */,
 			);
@@ -95,6 +123,9 @@
 		3F2049EA2A2F514A00530FEB /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				3F204A172A39F5B300530FEB /* Authentication */,
+				3F204A102A39F4FC00530FEB /* Settings */,
+				3F204A0A2A39D3AC00530FEB /* Firebase */,
 				3F2049EB2A2F515D00530FEB /* Reminders */,
 			);
 			path = Features;
@@ -150,8 +181,90 @@
 			isa = PBXGroup;
 			children = (
 				3F204A052A34798D00530FEB /* ReminderRespository.swift */,
+				3F204A0E2A39DD2900530FEB /* Repositories+Injection.swift */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		3F204A0A2A39D3AC00530FEB /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				3F204A0B2A39D3B800530FEB /* Services */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		3F204A0B2A39D3B800530FEB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3F204A0C2A39D3D300530FEB /* Firebase+Injection.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3F204A102A39F4FC00530FEB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3F204A122A39F50F00530FEB /* ViewModels */,
+				3F204A112A39F50200530FEB /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3F204A112A39F50200530FEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F204A132A39F52700530FEB /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F204A122A39F50F00530FEB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3F204A152A39F58100530FEB /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3F204A172A39F5B300530FEB /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				3F204A1A2A39F5CD00530FEB /* ViewModels */,
+				3F204A192A39F5C700530FEB /* Views */,
+				3F204A182A39F5C100530FEB /* Services */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		3F204A182A39F5C100530FEB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3F204A2B2A39FCBD00530FEB /* AuthenticationService.swift */,
+				3F204A2D2A3A003700530FEB /* AuthenticationService+Injection.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3F204A192A39F5C700530FEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F204A202A39F64D00530FEB /* AuthenticationView.swift */,
+				3F204A1F2A39F64D00530FEB /* GoogleSignInButton.swift */,
+				3F204A212A39F64D00530FEB /* LoginView.swift */,
+				3F204A222A39F64D00530FEB /* SignupView.swift */,
+				3F204A232A39F64D00530FEB /* UserProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F204A1A2A39F5CD00530FEB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3F204A1B2A39F62E00530FEB /* AuthenticationViewModel.swift */,
+				3F204A1C2A39F62F00530FEB /* UserProfileViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +289,7 @@
 				3F2049FD2A337A6600530FEB /* FirebaseAuth */,
 				3F2049FF2A337A6600530FEB /* FirebaseFirestore */,
 				3F204A012A337A6600530FEB /* FirebaseFirestoreSwift */,
+				3F204A082A39D37700530FEB /* Factory */,
 			);
 			productName = MakeItSo;
 			productReference = 3F2049D42A2E12D800530FEB /* MakeItSo.app */;
@@ -207,6 +321,7 @@
 			mainGroup = 3F2049CB2A2E12D800530FEB;
 			packageReferences = (
 				3F2049F82A337A6600530FEB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3F204A072A39D37700530FEB /* XCRemoteSwiftPackageReference "Factory" */,
 			);
 			productRefGroup = 3F2049D52A2E12D800530FEB /* Products */;
 			projectDirPath = "";
@@ -235,14 +350,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F204A272A39F64D00530FEB /* SignupView.swift in Sources */,
+				3F204A1D2A39F62F00530FEB /* AuthenticationViewModel.swift in Sources */,
 				3F2049F52A3083F300530FEB /* ReminderToggleStyle.swift in Sources */,
+				3F204A0D2A39D3D300530FEB /* Firebase+Injection.swift in Sources */,
+				3F204A1E2A39F62F00530FEB /* UserProfileViewModel.swift in Sources */,
+				3F204A282A39F64D00530FEB /* UserProfileView.swift in Sources */,
 				3F2049F02A2F526400530FEB /* RemindersListViewModel.swift in Sources */,
 				3F2049F22A30745F00530FEB /* RemindersListRowView.swift in Sources */,
 				3F2049E62A2E130F00530FEB /* Reminder.swift in Sources */,
+				3F204A242A39F64D00530FEB /* GoogleSignInButton.swift in Sources */,
+				3F204A0F2A39DD2900530FEB /* Repositories+Injection.swift in Sources */,
 				3F2049DA2A2E12D800530FEB /* RemindersListView.swift in Sources */,
+				3F204A262A39F64D00530FEB /* LoginView.swift in Sources */,
 				3F204A062A34798D00530FEB /* ReminderRespository.swift in Sources */,
 				3F2049E82A2E290800530FEB /* EditReminderDetailsView.swift in Sources */,
 				3F2049D82A2E12D800530FEB /* MakeItSoApp.swift in Sources */,
+				3F204A142A39F52700530FEB /* SettingsView.swift in Sources */,
+				3F204A252A39F64D00530FEB /* AuthenticationView.swift in Sources */,
+				3F204A162A39F58100530FEB /* SettingsViewModel.swift in Sources */,
+				3F204A2C2A39FCBD00530FEB /* AuthenticationService.swift in Sources */,
+				3F204A2E2A3A003700530FEB /* AuthenticationService+Injection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +499,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MakeItSo/Preview Content\"";
+				DEVELOPMENT_TEAM = BV862H23C8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -383,7 +512,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.andy.MakeItSo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andy.example.MakeItSo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -399,6 +528,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MakeItSo/Preview Content\"";
+				DEVELOPMENT_TEAM = BV862H23C8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -411,7 +541,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.andy.MakeItSo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andy.example.MakeItSo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -451,6 +581,14 @@
 				minimumVersion = 10.9.0;
 			};
 		};
+		3F204A072A39D37700530FEB /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -478,6 +616,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3F2049F82A337A6600530FEB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		3F204A082A39D37700530FEB /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F204A072A39D37700530FEB /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
